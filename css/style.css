@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.topmost {
+	background-color: #DD3E6E;
+	height: 50px;
+	width: 100%;
+	border: 1px solid red;
+	position: relative;
+	padding: 0 90px;
+}
+
+li {
+	list-style: none;
+}
+
+.social ul a img {
+	width: 29px;
+	height: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.login ul a {
+	float: left;
+	padding: 15px 23px;
+	color: white;
+	vertical-align: middle;
+}
+
+.loginhome {
+	background-color: #DD688B;
+	border-right: 2px solid #841D3C;
+}
+
+.loginlogin,
+.loginpinterest {
+	border-right: 2px solid #841D3C;
+}
+
+.logingoogle {
+
+}
+
+.social ul a {
+	float: right;
+	height: 28px;
+	width: 29px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.headerbox {
+	background-color: #EFE7DA;
+	height: 163px;
+	width: 100%;
+}
+
+.header {
+	float: left;
+	padding: 50px;
+}
+
+h1,
+small {
+	color: black;
+	padding-left: 63px;
+	text-align: right;
+}
+
+.headerpic {
+	position: relative;
+}
+
+.headerboximg {
+	width: 468px;
+	height: 60px;
+	float: right;
+	margin: 55px 100px;
+}
+
+.bigyellow {
+	background-color: #ef9e10;
+}
+
+nav {
+	width: 1000px;
+	height: 58px;
+	margin: 0 50px;
+	background-color: black;
+	float: left;
+}
+
+nav ul a {
+	float: left;
+	display: block;
+	padding: 15px 23px;
+}
+
+.centralizer {
+	margin: 0 100px;
+}
+
+.dino {
+	width: 1000px;
+	height: 350px;
+	display: inline-block;
+}
+
+.dinopic {
+	margin: 50px;
+}
+
+.slidetitle {
+	background-color: black;
+	color: white;
+	/*float: left;*/
+	display: inline-block;
+	padding: 20px 50px;
+	margin: 0;
+	width: inherit;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.post1 {
+	border: 1px solid #DD3064;
+	float: left;
+	display: block;
+	width: 657px;
+	padding: 15px 18px;
+	margin: 30px 100px;
+}
+
+.post1 img {
+	float: left;
+}
+
+.aquarium{
+	padding-left: 10px;
+}
+
+#readmore {
+	color: #48B8D0;
+}
+
+.apost {
+	font-size: 1.7em;
+	color: #48B8D0;
+}
+
+.apostimg {
+	max-width: 200px;
+	max-width: 150px;
+}
+
+.search {
+	color: white;
+	background-color: pink;
+	width: 299px;
+	height: 38px;
+}
+
+.fbstuffimg {
+	width: 300px;
+	height: 90px;
+}
+
+.button {
+	display: inline-block;
+}
