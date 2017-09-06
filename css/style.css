@@ -12,9 +12,13 @@ body {
 	background-color: #DD3E6E;
 	height: 50px;
 	width: 100%;
-	border: 1px solid red;
+	border: 1px solid grey;
 	position: relative;
 	padding: 0 90px;
+}
+
+.topmost a:hover {
+	background-color: #48B8D0;
 }
 
 li {
@@ -97,9 +101,14 @@ small {
 nav {
 	width: 1000px;
 	height: 58px;
-	margin: 0 50px;
+	padding: 0 25px;
+	margin-top: none;
 	background-color: black;
 	float: left;
+}
+
+nav a:hover {
+	background-color: grey;
 }
 
 nav ul a {
@@ -112,14 +121,15 @@ nav ul a {
 	margin: 0 100px;
 }
 
-.dino {
+/*.dino {
 	width: 1000px;
 	height: 350px;
+	margin-top: none;
 	display: inline-block;
-}
+}*/
 
 .dinopic {
-	margin: 50px;
+	margin-top: 50px;
 }
 
 .slidetitle {
@@ -132,8 +142,23 @@ nav ul a {
 	width: inherit;
 }
 
+.slidetitle:hover {
+	background-color: #DD3E6E;
+}
+
+main {
+	position: center;
+}
+
 h3 {
 	font-size: 18px;
+	margin: 5px;
+}
+
+.right h3 {
+	font-size: 1.5em;
+	margin: 0px 0 25px;
+	font-weight: normal;
 }
 
 .post1 {
@@ -142,11 +167,15 @@ h3 {
 	display: block;
 	width: 657px;
 	padding: 15px 18px;
-	margin: 30px 100px;
+	margin: 30px 30px 30px 100px;
 }
 
 .post1 img {
 	float: left;
+}
+
+.post1 div {
+	padding-left: 5px;
 }
 
 .aquarium{
@@ -181,4 +210,120 @@ h3 {
 
 .button {
 	display: inline-block;
+	width: 300px;
+}
+
+.tinypicspics {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+}
+
+#primero {
+	font-size: 0.7em;
+}
+
+.popimg {
+	width: 77.19px;
+	height:72;
+	float: left;
+}
+
+.popimg1 {
+	width: 77.19px;
+	height:72;
+	float: left;
+}
+
+
+.poppost1 {
+	display: inline-block;
+	width: 300px;
+	font-size: 0.8em;
+}
+
+.poppost1 a {
+	color: #DD3E6E;
+}
+
+.span {
+	height: 200px;
+	width: 300px;
+	display: block;
+	overflow: scroll;
+	text-align: center;
+}
+
+.span ul {
+	height: inherit;
+	margin: 1px;
+}
+
+.span ul li {
+	display: inline-block;
+}
+
+.otherjelly ul li a {
+	color: #48B8D0;
+}
+
+.spanj {
+	font-size: 1.5em;
+	font-color: lightgrey;
+}
+
+.otherjelly ul li a {
+	padding: 5px;
+}
+
+select {
+	display: block;
+}
+
+footer {
+	display: inline-block;
+	width: 100%;
+	background-color: #DD3E6E;
+	height: auto;
+}
+
+.footstuff {
+	width: 1000px;
+	height: 215px;
+	position: middle;
+	margin: 0 auto;
+}
+
+.labels,
+.blogroll,
+.about,
+.pages {
+	display: inline-grid;
+	width: 24%;
+	text-align: left;
+	padding: 20px;
+	border-right: 1px solid grey;
+}
+
+.alignright {
+	text-align: left;
+	float: left;
+	width: 440px;
+}
+
+.alignleft {
+	text-align: right;
+	float: right;
+	width: 440px;
+}
+
+.divhome {
+	float: left;
+	display: block;
+	width: 657px;
+	margin: 50px;
+}
+
+.divhome span a {
+	color: #48B8D0;
 }
